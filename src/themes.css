@@ -1,0 +1,25 @@
+/* src/styles/themes.css */
+
+.theme-light {
+  --primary: #ffffff;
+  --bg-color: #ffffff;
+  --text-color: #000000;
+}
+
+.theme-dark {
+  --primary: #1e1e1e;
+  --bg-color: #1e1e1e;
+  --text-color: #ffffff;
+}
+
+.theme-MLC {
+  --primary: #C95109;
+  --bg-color: #f0e68c;
+  --text-color: #333333;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  transition: background-color 0.3s ease;
+}

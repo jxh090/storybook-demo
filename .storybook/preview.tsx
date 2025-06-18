@@ -1,5 +1,5 @@
 import type { Preview } from '@storybook/react-vite'
-import { themes } from 'storybook/theming';
+// import { themes } from 'storybook/theming';
 import type { Decorator } from '@storybook/react';
 
 export const globalTypes = {
@@ -43,7 +43,7 @@ const preview: Preview = {
       test: 'todo'
     },
     docs: {
-      theme: themes.dark,
+      // theme: themes.dark,
     },
   },
 };

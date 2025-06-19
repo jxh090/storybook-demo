@@ -1,0 +1,101 @@
+import { Meta, Canvas } from '@storybook/addon-docs/blocks';
+
+import * as HeaderStories from '../stories/Header.stories';
+
+<Meta of={HeaderStories} />
+
+# Header
+
+The Header component displays the top navigation bar of your application.  
+It typically includes branding, navigation links, and user authentication actions such as login, logout, and account creation.
+
+Use the Header to provide users with consistent access to key navigation and account features across your app.
+
+## Features
+
+- **Branding:** Display your application's logo or name prominently.
+- **Navigation:** Provide links to key sections of your application.
+- **User Actions:** Include buttons or menus for login, logout, and account creation.
+- **Responsiveness:** Adapts to different screen sizes for mobile and desktop users.
+- **Accessibility:** Designed to be accessible for all users, including keyboard and screen reader support.
+
+## Usage
+
+To use the Header component, import it and include it at the top of your application's layout.  
+You can customize the navigation links and user actions by passing the appropriate props.
+
+```jsx
+import { Header } from './Header';
+
+<Header
+  user={user}
+  onLogin={handleLogin}
+  onLogout={handleLogout}
+  onCreateAccount={handleCreateAccount}
+/>
+```
+
+## Props
+
+| Name            | Type     | Description                                      |
+|-----------------|----------|--------------------------------------------------|
+| `user`          | object   | The current user object, or `null` if not logged in. |
+| `onLogin`       | function | Callback for when the user clicks the login button. |
+| `onLogout`      | function | Callback for when the user clicks the logout button. |
+| `onCreateAccount` | function | Callback for when the user clicks the create account button. |
+
+## Customization
+
+You can customize the Header by providing your own branding, navigation links, or user menu.  
+For advanced customization, consider extending the Header component or using composition.
+
+### Example: Custom Navigation
+
+```jsx
+<Header
+  user={user}
+  onLogin={handleLogin}
+  onLogout={handleLogout}
+  onCreateAccount={handleCreateAccount}
+  navLinks={[
+    { label: 'Home', href: '/' },
+    { label: 'About', href: '/about' },
+    { label: 'Contact', href: '/contact' },
+  ]}
+/>
+```
+
+## Best Practices
+
+- Keep navigation simple and intuitive.
+- Ensure the Header is visible and accessible on all pages.
+- Use clear labels for navigation and user actions.
+- Test the Header on different devices and screen sizes.
+
+## Examples
+
+Below are examples of the Header component in different states:
+
+### Logged In
+
+<Canvas of={HeaderStories.LoggedIn} />
+
+### Logged Out
+
+<Canvas of={HeaderStories.LoggedOut} />
+
+## Related Components
+
+- **Sidebar:** For additional navigation options.
+- **Footer:** For secondary navigation and information.
+- **UserMenu:** For user-specific actions and settings.
+
+## Troubleshooting
+
+- If the Header does not appear, ensure it is imported and rendered in your layout.
+- Check that all required props are provided.
+- Review the browser console for any errors or warnings.
+
+---
+
+For more information, see the [Storybook documentation](https://storybook.js.org/docs).

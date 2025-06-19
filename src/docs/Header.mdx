@@ -1,4 +1,4 @@
-import { Meta, Canvas } from '@storybook/addon-docs/blocks';
+import { Meta, Canvas, ArgTypes } from '@storybook/addon-docs/blocks';
 
 import * as HeaderStories from '../stories/Header.stories';
 
@@ -37,12 +37,7 @@ import { Header } from './Header';
 
 ## Props
 
-| Name            | Type     | Description                                      |
-|-----------------|----------|--------------------------------------------------|
-| `user`          | object   | The current user object, or `null` if not logged in. |
-| `onLogin`       | function | Callback for when the user clicks the login button. |
-| `onLogout`      | function | Callback for when the user clicks the logout button. |
-| `onCreateAccount` | function | Callback for when the user clicks the create account button. |
+<ArgTypes of={HeaderStories} />
 
 ## Customization
 

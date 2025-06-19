@@ -1,7 +1,7 @@
 # Storybook Documentation Demo
 
 Welcome to the **Storybook Demo**!  
-The purpose of this repository is to demonstrate how you can edit documentation directly through GitHub's web editor.
+The purpose of this repository is to demonstrate how you can edit documentation directly through GitHub's web editor and see the results in the [storybook preview](https://jxh090.github.io/storybook-demo/?path=/docs/introduction--documentation).
 
 ## How to Edit
 

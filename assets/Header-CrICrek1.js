@@ -1,4 +1,4 @@
-import{j as n}from"./iframe-XTeLh6q8.js";import{useMDXComponents as r}from"./index-C-KEiG7q.js";import{M as t,C as s}from"./blocks-BFQbDEGR.js";import{H as a,L as c,a as l}from"./Header.stories-CIUUFcQ_.js";import"./index-B-jQ7D-j.js";import"./Button-C_hWwbnZ.js";function i(o){const e={a:"a",br:"br",code:"code",h1:"h1",h2:"h2",h3:"h3",hr:"hr",li:"li",p:"p",pre:"pre",strong:"strong",ul:"ul",...r(),...o.components};return n.jsxs(n.Fragment,{children:[n.jsx(t,{of:a}),`
+import{j as n}from"./iframe-CRabB7Ju.js";import{useMDXComponents as t}from"./index-Y8bAEL7w.js";import{M as a,A as d,C as s}from"./blocks-Cq6Rts-u.js";import{H as i,L as l,a as c}from"./Header.stories-D4_iY6IX.js";import"./index-BrEunR6_.js";import"./Button-DUle6Dn9.js";function r(o){const e={a:"a",br:"br",code:"code",h1:"h1",h2:"h2",h3:"h3",hr:"hr",li:"li",p:"p",pre:"pre",strong:"strong",ul:"ul",...t(),...o.components};return n.jsxs(n.Fragment,{children:[n.jsx(a,{of:i}),`
 `,n.jsx(e.h1,{id:"header",children:"Header"}),`
 `,n.jsxs(e.p,{children:["The Header component displays the top navigation bar of your application.",n.jsx(e.br,{}),`
 `,"It typically includes branding, navigation links, and user authentication actions such as login, logout, and account creation."]}),`
@@ -24,12 +24,7 @@ import{j as n}from"./iframe-XTeLh6q8.js";import{useMDXComponents as r}from"./ind
 />
 `})}),`
 `,n.jsx(e.h2,{id:"props",children:"Props"}),`
-`,n.jsxs(e.p,{children:[`| Name            | Type     | Description                                      |
-|-----------------|----------|--------------------------------------------------|
-| `,n.jsx(e.code,{children:"user"}),"          | object   | The current user object, or ",n.jsx(e.code,{children:"null"}),` if not logged in. |
-| `,n.jsx(e.code,{children:"onLogin"}),`       | function | Callback for when the user clicks the login button. |
-| `,n.jsx(e.code,{children:"onLogout"}),`      | function | Callback for when the user clicks the logout button. |
-| `,n.jsx(e.code,{children:"onCreateAccount"})," | function | Callback for when the user clicks the create account button. |"]}),`
+`,n.jsx(d,{of:i}),`
 `,n.jsx(e.h2,{id:"customization",children:"Customization"}),`
 `,n.jsxs(e.p,{children:["You can customize the Header by providing your own branding, navigation links, or user menu.",n.jsx(e.br,{}),`
 `,"For advanced customization, consider extending the Header component or using composition."]}),`
@@ -56,9 +51,9 @@ import{j as n}from"./iframe-XTeLh6q8.js";import{useMDXComponents as r}from"./ind
 `,n.jsx(e.h2,{id:"examples",children:"Examples"}),`
 `,n.jsx(e.p,{children:"Below are examples of the Header component in different states:"}),`
 `,n.jsx(e.h3,{id:"logged-in",children:"Logged In"}),`
-`,n.jsx(s,{of:c}),`
-`,n.jsx(e.h3,{id:"logged-out",children:"Logged Out"}),`
 `,n.jsx(s,{of:l}),`
+`,n.jsx(e.h3,{id:"logged-out",children:"Logged Out"}),`
+`,n.jsx(s,{of:c}),`
 `,n.jsx(e.h2,{id:"related-components",children:"Related Components"}),`
 `,n.jsxs(e.ul,{children:[`
 `,n.jsxs(e.li,{children:[n.jsx(e.strong,{children:"Sidebar:"})," For additional navigation options."]}),`
@@ -72,4 +67,4 @@ import{j as n}from"./iframe-XTeLh6q8.js";import{useMDXComponents as r}from"./ind
 `,n.jsx(e.li,{children:"Review the browser console for any errors or warnings."}),`
 `]}),`
 `,n.jsx(e.hr,{}),`
-`,n.jsxs(e.p,{children:["For more information, see the ",n.jsx(e.a,{href:"https://storybook.js.org/docs",rel:"nofollow",children:"Storybook documentation"}),"."]})]})}function j(o={}){const{wrapper:e}={...r(),...o.components};return e?n.jsx(e,{...o,children:n.jsx(i,{...o})}):i(o)}export{j as default};
+`,n.jsxs(e.p,{children:["For more information, see the ",n.jsx(e.a,{href:"https://storybook.js.org/docs",rel:"nofollow",children:"Storybook documentation"}),"."]})]})}function m(o={}){const{wrapper:e}={...t(),...o.components};return e?n.jsx(e,{...o,children:n.jsx(r,{...o})}):r(o)}export{m as default};

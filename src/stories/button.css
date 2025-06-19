@@ -6,6 +6,11 @@
   font-weight: 700;
   line-height: 1;
   font-family: 'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  &:hover {
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 0px 1px inset;
+    filter: brightness(0.8);
+    transition: ease-in-out 0.2s;
+  }
 }
 .storybook-button--primary {
   background-color: #555ab9;

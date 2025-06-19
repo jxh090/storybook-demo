@@ -1,5 +1,6 @@
-import{j as e}from"./iframe-CRabB7Ju.js";import{useMDXComponents as i}from"./index-Y8bAEL7w.js";import{M as r}from"./blocks-Cq6Rts-u.js";import"./index-BrEunR6_.js";function t(n){const o={a:"a",blockquote:"blockquote",br:"br",code:"code",h1:"h1",h2:"h2",hr:"hr",li:"li",ol:"ol",p:"p",strong:"strong",ul:"ul",...i(),...n.components};return e.jsxs(e.Fragment,{children:[e.jsx(r,{title:"Introduction"}),`
+import{j as e}from"./iframe-B9dMdX30.js";import{useMDXComponents as i}from"./index-D2cRxMh_.js";import{M as r}from"./blocks-B5YrgmHx.js";import"./index-D0carZ8f.js";function t(n){const o={a:"a",blockquote:"blockquote",br:"br",code:"code",h1:"h1",h2:"h2",hr:"hr",li:"li",ol:"ol",p:"p",strong:"strong",ul:"ul",...i(),...n.components};return e.jsxs(e.Fragment,{children:[e.jsx(r,{title:"Introduction"}),`
 `,e.jsx(o.h1,{id:"storybook-documentation-demo",children:"Storybook Documentation Demo"}),`
+`,e.jsx(o.p,{children:"I edited this with Github's Web Editor."}),`
 `,e.jsxs(o.p,{children:["Welcome to the ",e.jsx(o.strong,{children:"Storybook Demo"}),"!",e.jsx(o.br,{}),`
 `,"This page demonstrates how you can edit documentation directly through GitHub's web editor."]}),`
 `,e.jsx(o.h2,{id:"how-to-edit",children:"How to Edit"}),`

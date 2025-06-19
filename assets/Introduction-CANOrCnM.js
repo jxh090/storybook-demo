@@ -1,4 +1,4 @@
-import{j as o}from"./iframe-DCITbx-G.js";import{useMDXComponents as i}from"./index-BoRaLDSX.js";import{M as r}from"./blocks-56fUflOP.js";import"./index-NV7PDjTc.js";function t(e){const n={a:"a",blockquote:"blockquote",br:"br",code:"code",h1:"h1",h2:"h2",hr:"hr",li:"li",ol:"ol",p:"p",strong:"strong",ul:"ul",...i(),...e.components};return o.jsxs(o.Fragment,{children:[o.jsx(r,{title:"Introduction"}),`
+import{j as o}from"./iframe-DlOj90pz.js";import{useMDXComponents as i}from"./index-D_rppFdV.js";import{M as r}from"./blocks-B_K16qjy.js";import"./index-CNoySJkz.js";function t(e){const n={a:"a",blockquote:"blockquote",br:"br",code:"code",h1:"h1",h2:"h2",hr:"hr",li:"li",ol:"ol",p:"p",strong:"strong",ul:"ul",...i(),...e.components};return o.jsxs(o.Fragment,{children:[o.jsx(r,{title:"Introduction"}),`
 `,o.jsx(n.h1,{id:"storybook-documentation-demo",children:"Storybook Documentation Demo"}),`
 `,o.jsxs(n.p,{children:["Welcome to the ",o.jsx(n.strong,{children:"Storybook Demo"}),"!",o.jsx(n.br,{}),`
 `,"This page demonstrates how you can edit documentation directly through GitHub's web editor."]}),`

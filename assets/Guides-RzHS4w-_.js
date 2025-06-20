@@ -1,2 +1,0 @@
-import{j as n}from"./iframe-Co2CG-Pw.js";import{useMDXComponents as o}from"./index-B_-QOw1N.js";function i(e){const t={h1:"h1",p:"p",...o(),...e.components};return n.jsxs(n.Fragment,{children:[n.jsx(t.h1,{id:"guides",children:"Guides"}),`
-`,n.jsx(t.p,{children:"Welcome! Guide guide guide.. guide guide branding! Guide"})]})}function s(e={}){const{wrapper:t}={...o(),...e.components};return t?n.jsx(t,{...e,children:n.jsx(i,{...e})}):i(e)}export{s as default};

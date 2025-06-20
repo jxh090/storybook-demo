@@ -1,5 +1,7 @@
 # Storybook Documentation Demo
 
+**DISCLAIMER:** This a WIP and this demonstration’s purpose is largely to understand the workflow for a non-developer to update/add documentation.
+
 Welcome to the **Storybook Demo**!  
 The purpose of this repository is to demonstrate how you can edit documentation directly through GitHub's web editor and see the results in the [storybook preview](https://jxh090.github.io/storybook-demo/?path=/docs/introduction--documentation).
 
@@ -8,7 +10,8 @@ The purpose of this repository is to demonstrate how you can edit documentation 
 1. Navigate to your relevant file in the GitHub repository:  
    `/src/docs/<file>.stories.mdx`
 2. Click the **pencil icon** (✏️) in the top right to edit the file.
-3. Make your changes using Markdown and MDX.
+3. Make your changes using Markdown and MDX.  
+   Need help converting plain text to MDX? Try an online tool like [Text to MDX](https://www.text2mdx.com/).
 4. Commit your changes and create a pull request if needed.
 
 > **Tip:** You can preview your documentation changes in Storybook after editing.

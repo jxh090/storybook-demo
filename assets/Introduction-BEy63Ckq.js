@@ -1,6 +1,7 @@
-import{j as e}from"./iframe-8HQZEGKq.js";import{useMDXComponents as i}from"./index-CiPPFqCS.js";import{M as r}from"./blocks-Bbgou-Sb.js";import"./index-DKiDokxR.js";function t(n){const o={a:"a",blockquote:"blockquote",br:"br",code:"code",h1:"h1",h2:"h2",hr:"hr",li:"li",ol:"ol",p:"p",strong:"strong",ul:"ul",...i(),...n.components};return e.jsxs(e.Fragment,{children:[e.jsx(r,{title:"Introduction"}),`
+import{j as e}from"./iframe-uaGGznsm.js";import{useMDXComponents as i}from"./index-w-uhVjA8.js";import{M as r}from"./blocks-CiMVwOVa.js";import"./index-D1SNnvcs.js";function n(t){const o={a:"a",blockquote:"blockquote",br:"br",code:"code",h1:"h1",h2:"h2",hr:"hr",li:"li",ol:"ol",p:"p",strong:"strong",ul:"ul",...i(),...t.components};return e.jsxs(e.Fragment,{children:[e.jsx(r,{title:"Introduction"}),`
 `,e.jsx(o.h1,{id:"storybook-documentation-demo",children:"Storybook Documentation Demo"}),`
 `,e.jsxs(o.p,{children:[e.jsx(o.strong,{children:"DISCLAIMER:"})," This a WIP and this demonstration’s purpose is largely to understand the workflow for a non-developer to update/add documentation."]}),`
+`,e.jsx(o.p,{children:"I edited this with Github's Web Editor."}),`
 `,e.jsxs(o.p,{children:["Welcome to the ",e.jsx(o.strong,{children:"Storybook Demo"}),"!",e.jsx(o.br,{}),`
 `,"The purpose of this repository is to demonstrate how you can edit documentation directly through GitHub's web editor and see the results in the ",e.jsx(o.a,{href:"https://jxh090.github.io/storybook-demo/?path=/docs/introduction--documentation",rel:"nofollow",children:"storybook preview"}),"."]}),`
 `,e.jsx(o.h2,{id:"how-to-edit",children:"How to Edit"}),`
@@ -22,4 +23,4 @@ import{j as e}from"./iframe-8HQZEGKq.js";import{useMDXComponents as i}from"./ind
 `,e.jsx(o.li,{children:"Collaborate easily with your team."}),`
 `]}),`
 `,e.jsx(o.hr,{}),`
-`,e.jsx(o.p,{children:"Happy documenting!"})]})}function h(n={}){const{wrapper:o}={...i(),...n.components};return o?e.jsx(o,{...n,children:e.jsx(t,{...n})}):t(n)}export{h as default};
+`,e.jsx(o.p,{children:"Happy documenting!"})]})}function c(t={}){const{wrapper:o}={...i(),...t.components};return o?e.jsx(o,{...t,children:e.jsx(n,{...t})}):n(t)}export{c as default};

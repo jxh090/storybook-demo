@@ -1,4 +1,4 @@
-import{B as S}from"./Button-BdN-Xm1Q.js";import"./iframe-8HQZEGKq.js";const{fn:b}=__STORYBOOK_MODULE_TEST__,O={title:"Example/Button",component:S,parameters:{layout:"centered"},tags:["autodocs"],argTypes:{backgroundColor:{control:"color"}},args:{onClick:b()}},r={args:{primary:!0,label:"Button"}},a={args:{label:"Button"}},e={args:{size:"large",label:"Button"}},o={args:{size:"small",label:"Button"}};var s,t,n;r.parameters={...r.parameters,docs:{...(s=r.parameters)==null?void 0:s.docs,source:{originalSource:`{
+import{B as S}from"./Button-DkPG-ML8.js";import"./iframe-uaGGznsm.js";const{fn:b}=__STORYBOOK_MODULE_TEST__,O={title:"Example/Button",component:S,parameters:{layout:"centered"},tags:["autodocs"],argTypes:{backgroundColor:{control:"color"}},args:{onClick:b()}},r={args:{primary:!0,label:"Button"}},a={args:{label:"Button"}},e={args:{size:"large",label:"Button"}},o={args:{size:"small",label:"Button"}};var s,t,n;r.parameters={...r.parameters,docs:{...(s=r.parameters)==null?void 0:s.docs,source:{originalSource:`{
   args: {
     primary: true,
     label: 'Button'

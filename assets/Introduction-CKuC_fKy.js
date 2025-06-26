@@ -1,4 +1,4 @@
-import{j as e}from"./iframe-uaGGznsm.js";import{useMDXComponents as i}from"./index-w-uhVjA8.js";import{M as r}from"./blocks-CiMVwOVa.js";import"./index-D1SNnvcs.js";function n(t){const o={a:"a",blockquote:"blockquote",br:"br",code:"code",h1:"h1",h2:"h2",hr:"hr",li:"li",ol:"ol",p:"p",strong:"strong",ul:"ul",...i(),...t.components};return e.jsxs(e.Fragment,{children:[e.jsx(r,{title:"Introduction"}),`
+import{j as e}from"./iframe-DISEpOVT.js";import{useMDXComponents as i}from"./index-FywDQmQC.js";import{M as r}from"./blocks-CS2h05jS.js";import"./index-xushhb0_.js";function n(t){const o={a:"a",blockquote:"blockquote",br:"br",code:"code",h1:"h1",h2:"h2",hr:"hr",li:"li",ol:"ol",p:"p",strong:"strong",ul:"ul",...i(),...t.components};return e.jsxs(e.Fragment,{children:[e.jsx(r,{title:"Introduction"}),`
 `,e.jsx(o.h1,{id:"storybook-documentation-demo",children:"Storybook Documentation Demo"}),`
 `,e.jsxs(o.p,{children:[e.jsx(o.strong,{children:"DISCLAIMER:"})," This a WIP and this demonstration’s purpose is largely to understand the workflow for a non-developer to update/add documentation."]}),`
 `,e.jsx(o.p,{children:"I edited this with Github's Web Editor."}),`

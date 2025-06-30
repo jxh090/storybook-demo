@@ -1,9 +1,11 @@
-import{j as e}from"./iframe-DISEpOVT.js";import{useMDXComponents as i}from"./index-FywDQmQC.js";import{M as r}from"./blocks-CS2h05jS.js";import"./index-xushhb0_.js";function n(t){const o={a:"a",blockquote:"blockquote",br:"br",code:"code",h1:"h1",h2:"h2",hr:"hr",li:"li",ol:"ol",p:"p",strong:"strong",ul:"ul",...i(),...t.components};return e.jsxs(e.Fragment,{children:[e.jsx(r,{title:"Introduction"}),`
+import{j as e}from"./iframe-BNwbEeGA.js";import{useMDXComponents as i}from"./index-nqw5ZhB6.js";import{M as r}from"./blocks-CPW5F7MD.js";import"./index-CAXFpy32.js";function n(t){const o={a:"a",blockquote:"blockquote",br:"br",code:"code",h1:"h1",h2:"h2",hr:"hr",li:"li",ol:"ol",p:"p",strong:"strong",ul:"ul",...i(),...t.components};return e.jsxs(e.Fragment,{children:[e.jsx(r,{title:"Introduction"}),`
 `,e.jsx(o.h1,{id:"storybook-documentation-demo",children:"Storybook Documentation Demo"}),`
 `,e.jsxs(o.p,{children:[e.jsx(o.strong,{children:"DISCLAIMER:"})," This a WIP and this demonstration’s purpose is largely to understand the workflow for a non-developer to update/add documentation."]}),`
 `,e.jsx(o.p,{children:"I edited this with Github's Web Editor."}),`
 `,e.jsxs(o.p,{children:["Welcome to the ",e.jsx(o.strong,{children:"Storybook Demo"}),"!",e.jsx(o.br,{}),`
 `,"The purpose of this repository is to demonstrate how you can edit documentation directly through GitHub's web editor and see the results in the ",e.jsx(o.a,{href:"https://jxh090.github.io/storybook-demo/?path=/docs/introduction--documentation",rel:"nofollow",children:"storybook preview"}),"."]}),`
+`,e.jsx(o.h2,{id:"what-shrek-movie-is-the-best",children:"What Shrek Movie is the best"}),`
+`,e.jsx(o.p,{children:"Shrek 3"}),`
 `,e.jsx(o.h2,{id:"how-to-edit",children:"How to Edit"}),`
 `,e.jsxs(o.ol,{children:[`
 `,e.jsxs(o.li,{children:["Navigate to your relevant file in the GitHub repository:",e.jsx(o.br,{}),`

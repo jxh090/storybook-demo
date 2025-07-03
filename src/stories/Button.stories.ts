@@ -11,6 +11,11 @@ const meta = {
   parameters: {
     // Optional parameter to center the component in the Canvas. More info: https://storybook.js.org/docs/configure/story-layout
     layout: 'centered',
+    design: {
+      type: 'figma',
+      url: 'https://www.figma.com/design/F3IhcCIRnOg5bTSNdIihFD/Bridges-Web-Templates?node-id=1598-69649&m=dev',
+      accessToken: import.meta.env.FIGMA_TOKEN,
+    },
   },
   // This component will have an automatically generated Autodocs entry: https://storybook.js.org/docs/writing-docs/autodocs
   tags: ['autodocs'],

@@ -1,0 +1,51 @@
+import { Meta } from '@storybook/addon-docs/blocks';
+// filepath: /Users/jaden.huang/Documents/storybook-demo/src/docs/colors.mdx
+
+import colors from '../../tokens/colors.json';
+
+<Meta title="Design Tokens/Colors" />
+
+# Color Tokens
+
+This page documents the color tokens used in this design system.  
+Each color is shown with its name and hex value.
+
+---
+
+## Palette
+
+<table>
+  <thead>
+    <tr>
+      <th style={{textAlign: 'left'}}>Token Name</th>
+      <th style={{textAlign: 'left'}}>Color</th>
+      <th style={{textAlign: 'left'}}>Hex Value</th>
+    </tr>
+  </thead>
+  <tbody>
+    {Object.entries(colors).map(([name, hex]) => (
+      <tr key={name}>
+        <td>{name}</td>
+        <td>
+          <span
+            style={{
+              background: hex,
+              display: 'inline-block',
+              width: 32,
+              height: 32,
+              border: '1px solid #ccc',
+              borderRadius: 4,
+              verticalAlign: 'middle',
+              margin: 2,
+            }}
+          />
+        </td>
+        <td><code>{hex}</code></td>
+      </tr>
+    ))}
+  </tbody>
+</table>
+
+---
+
+*To update this table, edit `tokens/colors.json` and re-generate

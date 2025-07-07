@@ -1,4 +1,4 @@
-import{j as t}from"./iframe-BwryMHeV.js";import{useMDXComponents as s}from"./index-D06VnH04.js";function o(n){const e={h1:"h1",h2:"h2",p:"p",...s(),...n.components};return t.jsxs(t.Fragment,{children:[t.jsx(e.h1,{id:"nova--co",children:"Nova & Co"}),`
+import{j as t}from"./iframe-TBkqYGYO.js";import{useMDXComponents as s}from"./index-4VLrByV5.js";function o(n){const e={h1:"h1",h2:"h2",p:"p",...s(),...n.components};return t.jsxs(t.Fragment,{children:[t.jsx(e.h1,{id:"nova--co",children:"Nova & Co"}),`
 `,t.jsx(e.p,{children:"At Nova & Co., we believe branding is more than just visuals—it's a language of trust, meaning, and emotion. We craft identities that not only look beautiful but feel authentic. From startups to legacy brands, our mission is to shape narratives that resonate, inspire loyalty, and evolve with purpose."}),`
 `,t.jsx(e.p,{children:"Every logo, palette, and word we create is designed to tell a story that lasts."}),`
 `,t.jsx(e.h2,{id:"shrek-3-is-better-than-shrek-2",children:"Shrek 3 is better than Shrek 2"})]})}function i(n={}){const{wrapper:e}={...s(),...n.components};return e?t.jsx(e,{...n,children:t.jsx(o,{...n})}):o(n)}export{i as default};
